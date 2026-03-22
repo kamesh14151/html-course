@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Tables</title>
+  <style>
+    table { border-collapse: collapse; width: 60%; margin-bottom: 20px; }
+    th, td { border: 1px solid black; padding: 8px; text-align: left; }
+    th { background-color: #f2f2f2; }
+  </style>
+</head>
+<body>
+
+  <h1>HTML Tables</h1>
+
+  <!-- Basic Table -->
+  <h2>Basic Table</h2>
+  <table>
+    <tr>
+      <th>Name</th>
+      <th>Age</th>
+      <th>City</th>
+    </tr>
+    <tr>
+      <td>Ravi</td>
+      <td>22</td>
+      <td>Chennai</td>
+    </tr>
+    <tr>
+      <td>Priya</td>
+      <td>20</td>
+      <td>Coimbatore</td>
+    </tr>
+    <tr>
+      <td>Kumar</td>
+      <td>25</td>
+      <td>Salem</td>
+    </tr>
+  </table>
+
+  <!-- Table with colspan -->
+  <h2>Table with Colspan (merging columns)</h2>
+  <table>
+    <tr>
+      <th colspan="2">Full Name</th>
+      <th>Score</th>
+    </tr>
+    <tr>
+      <td>First: Arun</td>
+      <td>Last: Kumar</td>
+      <td>95</td>
+    </tr>
+    <tr>
+      <td>First: Deepa</td>
+      <td>Last: Raj</td>
+      <td>88</td>
+    </tr>
+  </table>
+
+  <!-- Table with thead, tbody, tfoot -->
+  <h2>Table with thead, tbody, tfoot</h2>
+  <table>
+    <thead>
+      <tr>
+        <th>Item</th>
+        <th>Price</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Pen</td>
+        <td>Rs.10</td>
+      </tr>
+      <tr>
+        <td>Notebook</td>
+        <td>Rs.50</td>
+      </tr>
+      <tr>
+        <td>Bag</td>
+        <td>Rs.300</td>
+      </tr>
+    </tbody>
+    <tfoot>
+      <tr>
+        <td><strong>Total</strong></td>
+        <td><strong>Rs.360</strong></td>
+      </tr>
+    </tfoot>
+  </table>
+
+</body>
+</html>
